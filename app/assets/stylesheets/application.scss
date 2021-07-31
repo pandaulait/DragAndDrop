@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+.table-sortable {
+  tr.item {
+    cursor: row-resize;
+  }
+}
+
+.table__thead-th{
+  scc
+}
+
+.table thead{
+  background
+}
+
+↓
+
+.table{
+  & thead{
+    background
+    & th{
+      scss
+    }
+  }
+}
