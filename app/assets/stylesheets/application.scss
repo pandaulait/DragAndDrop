@@ -15,27 +15,28 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import 'simplemde/dist/simplemde.min.css';
 .table-sortable {
   tr.item {
     cursor: row-resize;
   }
 }
 
-.table__thead-th{
-  scc
-}
+// .table__thead-th{
+//   scc
+// }
 
-.table thead{
-  background
-}
+// .table thead{
+//   background
+// }
 
-↓
 
-.table{
-  & thead{
-    background
-    & th{
-      scss
-    }
-  }
-}
+
+// .table{
+//   & thead{
+//     background
+//     & th{
+//       scss
+//     }
+//   }
+// }

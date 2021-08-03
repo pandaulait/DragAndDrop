@@ -18,3 +18,4 @@
 //= require jquery-ui/effects/effect-highlight
 //= require bootstrap-sprockets
 //= require_tree .
+//= require simplemde/dist/simplemde.min.js
