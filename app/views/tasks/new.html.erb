@@ -1,19 +1,23 @@
-<h1>Tasks#new</h1>
-<p>Find me in app/views/tasks/new.html.erb</p>
+
 <div class="container">
+  <h1>Tasks#new</h1>
+  <p>Find me in app/views/tasks/new.html.erb</p>
   <%= form_for(@task) do |f| %>
 
   <div class="form-group">
     <%= f.text_area :body, id: "aaa", size: '20x15' %>
   </div>
 
-  <div class='row justify-content-md-center'>
+  <div class='row justify-content-md-center m-5'>
     <%= f.submit('投稿', class: 'btn btn-primary btn-lg') %>
   </div>
 <% end %>
 
 
-<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</div>
+<div class="container m-5">
+  <div class="row m-5"><a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button m-5" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 </div>
 
 
